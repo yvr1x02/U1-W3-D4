@@ -19,7 +19,7 @@ extrationButton.addEventListener("click", function (event) {
   let random = Math.floor(Math.random() * 76) + 1;
   console.log(random);
 
-  arrayExtractedNumbers[random].classList.add("selected");
+  arrayExtractedNumbers[random - 1].classList.add("selected");
 });
 
 window.addEventListener("DOMContentLoaded", () => {
